@@ -3,14 +3,14 @@ import React from 'react'
 
 
 export default function MovieList(props) {
-//    console.log(props.movies[0].Poster)
+
 
 let box = document.querySelector('.movies')
 const nextClick = ()=> {
   
 let width = box.clientWidth;
 box.scrollLeft = box.scrollLeft + width
-console.log(box.scrollLeft)
+
 }
 const prevClick = ()=> {
 let width = box.clientWidth;
